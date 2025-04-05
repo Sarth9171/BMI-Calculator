@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #0dbbf09c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgba(243, 239, 11, 0.712);
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+h1{
+    color: #232323;
+    margin-bottom: 20px;
+
+}
+label{
+    font-size: 16px;
+    color: #0b0000;
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: block;
+}
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #adadad;
+    font-size: 16px;
+}
+button{
+    background-color: #080808;
+    color: white;
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #960ce6;
+}
+#result{
+    margin-top: 20px;
+}
+#bmiValue{
+    font-size: 20px;
+    font-weight: bold;
+}
+#bmiCategory{
+    font-size: 16px;
+    color: #454545;
+    font-weight: bold;
+}
